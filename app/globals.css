@@ -1,0 +1,145 @@
+:root {
+  --bg: #0a0b0d;
+  --surface: #15171b;
+  --surface-raised: #1c1f24;
+  --border: #262a30;
+  --text: #f2f3f5;
+  --text-dim: #9aa0a8;
+  --accent: #ff6b3d;
+  --accent-dim: #ff6b3d33;
+  --font-display: "Barlow Condensed", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 20px 80px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 44px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  color: var(--text-dim);
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+/* Pill nav, same pattern as AFL Matchups */
+.pill-nav {
+  display: inline-flex;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 4px;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+
+.pill-nav button {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  background: transparent;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.pill-nav button.active {
+  background: var(--accent);
+  color: #0a0b0d;
+}
+
+.pill-nav button:not(.active):hover {
+  color: var(--text);
+  background: var(--surface-raised);
+}
+
+.table-wrap {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+table { width: 100%; border-collapse: collapse; }
+
+th {
+  font-family: var(--font-display);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  text-align: left;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-raised);
+}
+
+th.num, td.num { text-align: right; }
+
+td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 15px;
+}
+
+tr:last-child td { border-bottom: none; }
+
+tr:hover td { background: var(--surface-raised); }
+
+.team {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.rank {
+  color: var(--text-dim);
+  font-size: 13px;
+  width: 32px;
+}
+
+.state {
+  color: var(--text-dim);
+  font-size: 14px;
+  padding: 40px 16px;
+  text-align: center;
+}
+
+/* iOS-style transition on pill switch */
+.table-wrap {
+  animation: fadein 0.25s ease;
+}
+
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+  .title { font-size: 32px; }
+  th, td { padding: 10px 12px; font-size: 13px; }
+}
