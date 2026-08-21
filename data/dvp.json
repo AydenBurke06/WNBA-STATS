@@ -1,41 +1,8 @@
 {
   "G": [
     {
-      "team_id": "1611665415",
-      "games_sampled": 5,
-      "pts_allowed": 13.4,
-      "reb_allowed": 4.4,
-      "ast_allowed": 5.0,
-      "stl_allowed": 1.0,
-      "blk_allowed": 0.0,
-      "fg3m_allowed": 3.0,
-      "fg_pct_allowed": 44.1
-    },
-    {
-      "team_id": "1611665416",
-      "games_sampled": 6,
-      "pts_allowed": 13.0,
-      "reb_allowed": 2.0,
-      "ast_allowed": 3.0,
-      "stl_allowed": 1.5,
-      "blk_allowed": 0.0,
-      "fg3m_allowed": 2.5,
-      "fg_pct_allowed": 47.7
-    },
-    {
-      "team_id": "15008",
-      "games_sampled": 9,
-      "pts_allowed": 9.2,
-      "reb_allowed": 1.4,
-      "ast_allowed": 1.4,
-      "stl_allowed": 0.7,
-      "blk_allowed": 0.3,
-      "fg3m_allowed": 1.2,
-      "fg_pct_allowed": 48.2
-    },
-    {
       "team_id": "LAS",
-      "games_sampled": 201,
+      "sample_size": 201,
       "pts_allowed": 8.9,
       "reb_allowed": 2.2,
       "ast_allowed": 2.4,
@@ -46,7 +13,7 @@
     },
     {
       "team_id": "PHO",
-      "games_sampled": 220,
+      "sample_size": 220,
       "pts_allowed": 8.2,
       "reb_allowed": 2.0,
       "ast_allowed": 2.4,
@@ -57,7 +24,7 @@
     },
     {
       "team_id": "CHI",
-      "games_sampled": 206,
+      "sample_size": 206,
       "pts_allowed": 8.1,
       "reb_allowed": 2.3,
       "ast_allowed": 2.2,
@@ -67,30 +34,8 @@
       "fg_pct_allowed": 43.3
     },
     {
-      "team_id": "15026",
-      "games_sampled": 19,
-      "pts_allowed": 8.1,
-      "reb_allowed": 2.0,
-      "ast_allowed": 2.5,
-      "stl_allowed": 0.7,
-      "blk_allowed": 0.2,
-      "fg3m_allowed": 1.2,
-      "fg_pct_allowed": 56.3
-    },
-    {
-      "team_id": "IND",
-      "games_sampled": 220,
-      "pts_allowed": 8.0,
-      "reb_allowed": 1.8,
-      "ast_allowed": 2.1,
-      "stl_allowed": 0.6,
-      "blk_allowed": 0.2,
-      "fg3m_allowed": 0.8,
-      "fg_pct_allowed": 44.8
-    },
-    {
       "team_id": "NYL",
-      "games_sampled": 234,
+      "sample_size": 234,
       "pts_allowed": 8.0,
       "reb_allowed": 1.9,
       "ast_allowed": 2.3,
@@ -100,8 +45,19 @@
       "fg_pct_allowed": 42.8
     },
     {
+      "team_id": "IND",
+      "sample_size": 220,
+      "pts_allowed": 8.0,
+      "reb_allowed": 1.8,
+      "ast_allowed": 2.1,
+      "stl_allowed": 0.6,
+      "blk_allowed": 0.2,
+      "fg3m_allowed": 0.8,
+      "fg_pct_allowed": 44.8
+    },
+    {
       "team_id": "TOR",
-      "games_sampled": 224,
+      "sample_size": 224,
       "pts_allowed": 7.8,
       "reb_allowed": 1.9,
       "ast_allowed": 2.5,
@@ -112,7 +68,7 @@
     },
     {
       "team_id": "LVA",
-      "games_sampled": 228,
+      "sample_size": 228,
       "pts_allowed": 7.8,
       "reb_allowed": 2.0,
       "ast_allowed": 2.1,
@@ -123,7 +79,7 @@
     },
     {
       "team_id": "DAL",
-      "games_sampled": 214,
+      "sample_size": 214,
       "pts_allowed": 7.8,
       "reb_allowed": 2.0,
       "ast_allowed": 2.2,
@@ -134,7 +90,7 @@
     },
     {
       "team_id": "ATL",
-      "games_sampled": 211,
+      "sample_size": 211,
       "pts_allowed": 7.6,
       "reb_allowed": 1.9,
       "ast_allowed": 2.1,
@@ -145,7 +101,7 @@
     },
     {
       "team_id": "MIN",
-      "games_sampled": 229,
+      "sample_size": 229,
       "pts_allowed": 7.5,
       "reb_allowed": 1.9,
       "ast_allowed": 2.2,
@@ -156,7 +112,7 @@
     },
     {
       "team_id": "SEA",
-      "games_sampled": 234,
+      "sample_size": 234,
       "pts_allowed": 7.5,
       "reb_allowed": 2.2,
       "ast_allowed": 2.2,
@@ -167,7 +123,7 @@
     },
     {
       "team_id": "WAS",
-      "games_sampled": 217,
+      "sample_size": 217,
       "pts_allowed": 7.4,
       "reb_allowed": 1.5,
       "ast_allowed": 2.0,
@@ -178,7 +134,7 @@
     },
     {
       "team_id": "POR",
-      "games_sampled": 227,
+      "sample_size": 227,
       "pts_allowed": 7.4,
       "reb_allowed": 1.9,
       "ast_allowed": 2.4,
@@ -189,7 +145,7 @@
     },
     {
       "team_id": "CON",
-      "games_sampled": 223,
+      "sample_size": 223,
       "pts_allowed": 7.3,
       "reb_allowed": 1.7,
       "ast_allowed": 1.9,
@@ -200,7 +156,7 @@
     },
     {
       "team_id": "GSV",
-      "games_sampled": 195,
+      "sample_size": 195,
       "pts_allowed": 7.1,
       "reb_allowed": 2.0,
       "ast_allowed": 2.0,
@@ -212,19 +168,8 @@
   ],
   "F": [
     {
-      "team_id": "1611665415",
-      "games_sampled": 3,
-      "pts_allowed": 9.3,
-      "reb_allowed": 6.7,
-      "ast_allowed": 2.7,
-      "stl_allowed": 0.7,
-      "blk_allowed": 0.3,
-      "fg3m_allowed": 0.3,
-      "fg_pct_allowed": 76.5
-    },
-    {
       "team_id": "TOR",
-      "games_sampled": 157,
+      "sample_size": 157,
       "pts_allowed": 8.0,
       "reb_allowed": 3.8,
       "ast_allowed": 1.1,
@@ -234,19 +179,8 @@
       "fg_pct_allowed": 52.9
     },
     {
-      "team_id": "1611665416",
-      "games_sampled": 4,
-      "pts_allowed": 8.0,
-      "reb_allowed": 6.8,
-      "ast_allowed": 4.2,
-      "stl_allowed": 0.2,
-      "blk_allowed": 0.2,
-      "fg3m_allowed": 1.5,
-      "fg_pct_allowed": 36.1
-    },
-    {
       "team_id": "LVA",
-      "games_sampled": 155,
+      "sample_size": 155,
       "pts_allowed": 7.5,
       "reb_allowed": 4.2,
       "ast_allowed": 1.2,
@@ -257,7 +191,7 @@
     },
     {
       "team_id": "SEA",
-      "games_sampled": 167,
+      "sample_size": 167,
       "pts_allowed": 7.4,
       "reb_allowed": 3.9,
       "ast_allowed": 1.3,
@@ -268,7 +202,7 @@
     },
     {
       "team_id": "POR",
-      "games_sampled": 143,
+      "sample_size": 143,
       "pts_allowed": 7.4,
       "reb_allowed": 3.7,
       "ast_allowed": 1.4,
@@ -279,7 +213,7 @@
     },
     {
       "team_id": "IND",
-      "games_sampled": 168,
+      "sample_size": 168,
       "pts_allowed": 7.2,
       "reb_allowed": 3.3,
       "ast_allowed": 1.4,
@@ -290,7 +224,7 @@
     },
     {
       "team_id": "LAS",
-      "games_sampled": 151,
+      "sample_size": 151,
       "pts_allowed": 7.0,
       "reb_allowed": 3.7,
       "ast_allowed": 1.6,
@@ -301,7 +235,7 @@
     },
     {
       "team_id": "DAL",
-      "games_sampled": 153,
+      "sample_size": 153,
       "pts_allowed": 6.9,
       "reb_allowed": 3.6,
       "ast_allowed": 1.3,
@@ -312,7 +246,7 @@
     },
     {
       "team_id": "CHI",
-      "games_sampled": 173,
+      "sample_size": 173,
       "pts_allowed": 6.8,
       "reb_allowed": 3.6,
       "ast_allowed": 1.3,
@@ -322,19 +256,8 @@
       "fg_pct_allowed": 45.9
     },
     {
-      "team_id": "ATL",
-      "games_sampled": 156,
-      "pts_allowed": 6.3,
-      "reb_allowed": 3.1,
-      "ast_allowed": 1.1,
-      "stl_allowed": 0.5,
-      "blk_allowed": 0.5,
-      "fg3m_allowed": 0.5,
-      "fg_pct_allowed": 48.4
-    },
-    {
       "team_id": "NYL",
-      "games_sampled": 167,
+      "sample_size": 167,
       "pts_allowed": 6.3,
       "reb_allowed": 3.3,
       "ast_allowed": 1.3,
@@ -344,8 +267,19 @@
       "fg_pct_allowed": 46.6
     },
     {
+      "team_id": "ATL",
+      "sample_size": 156,
+      "pts_allowed": 6.3,
+      "reb_allowed": 3.1,
+      "ast_allowed": 1.1,
+      "stl_allowed": 0.5,
+      "blk_allowed": 0.5,
+      "fg3m_allowed": 0.5,
+      "fg_pct_allowed": 48.4
+    },
+    {
       "team_id": "MIN",
-      "games_sampled": 163,
+      "sample_size": 163,
       "pts_allowed": 6.1,
       "reb_allowed": 3.3,
       "ast_allowed": 1.2,
@@ -356,7 +290,7 @@
     },
     {
       "team_id": "GSV",
-      "games_sampled": 151,
+      "sample_size": 151,
       "pts_allowed": 6.0,
       "reb_allowed": 3.5,
       "ast_allowed": 1.2,
@@ -367,7 +301,7 @@
     },
     {
       "team_id": "PHO",
-      "games_sampled": 148,
+      "sample_size": 148,
       "pts_allowed": 6.0,
       "reb_allowed": 3.4,
       "ast_allowed": 1.0,
@@ -377,19 +311,8 @@
       "fg_pct_allowed": 46.0
     },
     {
-      "team_id": "15026",
-      "games_sampled": 11,
-      "pts_allowed": 6.0,
-      "reb_allowed": 2.5,
-      "ast_allowed": 0.8,
-      "stl_allowed": 0.7,
-      "blk_allowed": 0.5,
-      "fg3m_allowed": 0.1,
-      "fg_pct_allowed": 65.7
-    },
-    {
       "team_id": "WAS",
-      "games_sampled": 164,
+      "sample_size": 164,
       "pts_allowed": 5.8,
       "reb_allowed": 3.3,
       "ast_allowed": 1.2,
@@ -400,7 +323,7 @@
     },
     {
       "team_id": "CON",
-      "games_sampled": 164,
+      "sample_size": 164,
       "pts_allowed": 5.7,
       "reb_allowed": 3.2,
       "ast_allowed": 1.2,
@@ -408,45 +331,12 @@
       "blk_allowed": 0.5,
       "fg3m_allowed": 0.4,
       "fg_pct_allowed": 43.1
-    },
-    {
-      "team_id": "15008",
-      "games_sampled": 12,
-      "pts_allowed": 4.8,
-      "reb_allowed": 4.3,
-      "ast_allowed": 1.4,
-      "stl_allowed": 0.7,
-      "blk_allowed": 0.8,
-      "fg3m_allowed": 0.3,
-      "fg_pct_allowed": 43.1
     }
   ],
   "C": [
     {
-      "team_id": "1611665416",
-      "games_sampled": 1,
-      "pts_allowed": 12.0,
-      "reb_allowed": 13.0,
-      "ast_allowed": 1.0,
-      "stl_allowed": 0.0,
-      "blk_allowed": 0.0,
-      "fg3m_allowed": 0.0,
-      "fg_pct_allowed": 35.3
-    },
-    {
-      "team_id": "1611665415",
-      "games_sampled": 3,
-      "pts_allowed": 11.3,
-      "reb_allowed": 5.7,
-      "ast_allowed": 3.0,
-      "stl_allowed": 0.0,
-      "blk_allowed": 0.3,
-      "fg3m_allowed": 1.3,
-      "fg_pct_allowed": 45.2
-    },
-    {
       "team_id": "POR",
-      "games_sampled": 52,
+      "sample_size": 52,
       "pts_allowed": 10.8,
       "reb_allowed": 4.9,
       "ast_allowed": 1.7,
@@ -457,7 +347,7 @@
     },
     {
       "team_id": "CHI",
-      "games_sampled": 49,
+      "sample_size": 49,
       "pts_allowed": 9.3,
       "reb_allowed": 5.4,
       "ast_allowed": 1.4,
@@ -468,7 +358,7 @@
     },
     {
       "team_id": "DAL",
-      "games_sampled": 55,
+      "sample_size": 55,
       "pts_allowed": 9.0,
       "reb_allowed": 4.8,
       "ast_allowed": 1.1,
@@ -479,7 +369,7 @@
     },
     {
       "team_id": "ATL",
-      "games_sampled": 56,
+      "sample_size": 56,
       "pts_allowed": 8.9,
       "reb_allowed": 4.3,
       "ast_allowed": 1.6,
@@ -490,7 +380,7 @@
     },
     {
       "team_id": "NYL",
-      "games_sampled": 54,
+      "sample_size": 54,
       "pts_allowed": 8.6,
       "reb_allowed": 4.2,
       "ast_allowed": 1.5,
@@ -501,7 +391,7 @@
     },
     {
       "team_id": "GSV",
-      "games_sampled": 47,
+      "sample_size": 47,
       "pts_allowed": 8.4,
       "reb_allowed": 4.9,
       "ast_allowed": 1.1,
@@ -512,7 +402,7 @@
     },
     {
       "team_id": "PHO",
-      "games_sampled": 53,
+      "sample_size": 53,
       "pts_allowed": 8.3,
       "reb_allowed": 5.0,
       "ast_allowed": 1.6,
@@ -523,7 +413,7 @@
     },
     {
       "team_id": "LVA",
-      "games_sampled": 56,
+      "sample_size": 56,
       "pts_allowed": 8.1,
       "reb_allowed": 3.9,
       "ast_allowed": 1.1,
@@ -534,7 +424,7 @@
     },
     {
       "team_id": "LAS",
-      "games_sampled": 52,
+      "sample_size": 52,
       "pts_allowed": 7.8,
       "reb_allowed": 4.9,
       "ast_allowed": 1.4,
@@ -545,7 +435,7 @@
     },
     {
       "team_id": "CON",
-      "games_sampled": 53,
+      "sample_size": 53,
       "pts_allowed": 7.6,
       "reb_allowed": 3.9,
       "ast_allowed": 1.2,
@@ -556,7 +446,7 @@
     },
     {
       "team_id": "MIN",
-      "games_sampled": 58,
+      "sample_size": 58,
       "pts_allowed": 7.5,
       "reb_allowed": 5.0,
       "ast_allowed": 1.1,
@@ -567,7 +457,7 @@
     },
     {
       "team_id": "TOR",
-      "games_sampled": 53,
+      "sample_size": 53,
       "pts_allowed": 7.4,
       "reb_allowed": 4.6,
       "ast_allowed": 1.0,
@@ -578,7 +468,7 @@
     },
     {
       "team_id": "SEA",
-      "games_sampled": 53,
+      "sample_size": 53,
       "pts_allowed": 7.2,
       "reb_allowed": 3.5,
       "ast_allowed": 1.1,
@@ -589,7 +479,7 @@
     },
     {
       "team_id": "WAS",
-      "games_sampled": 52,
+      "sample_size": 52,
       "pts_allowed": 7.0,
       "reb_allowed": 3.9,
       "ast_allowed": 1.1,
@@ -600,7 +490,7 @@
     },
     {
       "team_id": "IND",
-      "games_sampled": 56,
+      "sample_size": 56,
       "pts_allowed": 6.9,
       "reb_allowed": 4.2,
       "ast_allowed": 1.1,
@@ -608,28 +498,6 @@
       "blk_allowed": 0.8,
       "fg3m_allowed": 0.4,
       "fg_pct_allowed": 48.4
-    },
-    {
-      "team_id": "15026",
-      "games_sampled": 1,
-      "pts_allowed": 4.0,
-      "reb_allowed": 1.0,
-      "ast_allowed": 6.0,
-      "stl_allowed": 0.0,
-      "blk_allowed": 1.0,
-      "fg3m_allowed": 0.0,
-      "fg_pct_allowed": 66.7
-    },
-    {
-      "team_id": "15008",
-      "games_sampled": 1,
-      "pts_allowed": 0.0,
-      "reb_allowed": 0.0,
-      "ast_allowed": 0.0,
-      "stl_allowed": 0.0,
-      "blk_allowed": 0.0,
-      "fg3m_allowed": 0.0,
-      "fg_pct_allowed": 0
     }
   ]
 }
